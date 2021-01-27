@@ -2,7 +2,7 @@
 Issue-only repository for tracking issues related to the UD Mobile iOS App
 
 # TEST FLIGHT USERS
-App only supports nodes (Insteon, Zwave, and Node Servers). Programs, Variables and Network Resources have not been included as of build 0.0.2.  Please hold feature requests until further notice.
+App only supports nodes (Insteon, Zwave, and Node Servers). Programs, Variables, Scenes, and Network Resources have not been included as of build 0.0.2.  Please hold feature requests until further notice.
 
 
 ## Reporting an Issue
