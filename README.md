@@ -7,6 +7,7 @@ App only supports nodes (Insteon, Zwave, and Node Servers), Programs, Variables,
 
 ## Reporting an Issue
 Please open an [issue](https://github.com/UniversalDevicesInc/UD-Mobile-iOS/issues).
+Please check if the issue already exists to avoid duplicates. If issue exists please leave a comment in the existing issue.
 Include UD Mobile version number and ISY Firmware version in report.
 
 ## Installation
