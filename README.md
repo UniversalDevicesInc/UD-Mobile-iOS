@@ -13,7 +13,7 @@ Include UD Mobile version number and ISY Firmware version in report.
 Test Flight ONLY, by invitation only.
 
 ## Remote Connections
-If not using the ISY Portal, UD Mobile supports remote connections by A) VPN and selecting "Only Use Local Connection" or B) A valid CERT. This will not work with self signed CERTs unless trusted by the Android System. Adding a self signed CERT to the Android system is beyond the scope of support for this app.
+If not using the ISY Portal, UD Mobile supports remote connections by A) VPN and selecting "Only Use Local Connection" or B) A valid CERT. This will not work with self signed CERTs unless trusted by the operating system. Adding a self signed CERT to an OS is beyond the scope of support for this app.
 Apple and Google have given developers notice that bypassing security may result in removal from the app stores. While it is currently possible to bypass the https CERT there is no guarantee it will work on the next version or that it will not result in removal from the respective app platforms.  
 
 # Node Servers
