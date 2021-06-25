@@ -73,7 +73,7 @@ Zwave should return the following:
 </profiles>
 ```
 
-If family names are empty or missing firmware will need to reinstalled.  Reinstallation must be done from the Admin Console when on the same local network as the ISY.
+If file names are empty or missing firmware will need to reinstalled.  Reinstallation must be done from the Admin Console when on the same local network as the ISY.
 ```xml 
 <file name="I_EDIT.XML"/>
 ```      
