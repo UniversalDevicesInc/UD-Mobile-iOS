@@ -21,7 +21,7 @@ Apple and Google have given developers notice that bypassing security may result
 Please reboot the ISY if Node Server values are not formatted or are formatted incorrectly.  This is needed for all new Node Server installs and may be needed if NodeDef, Editor, or NLS files for a Node Server have been changed during an update.  After rebooting the ISY UD Mobile may need to sync with the ISY to obtain the new files. Incorrect formatting only affects clients, including UD Mobile, which read the formatted value from the ISY subscription.  Incorrect formatting does not appear to affect the Admin Conslole.
 
 # Missing Data
-We have reports of UD Mobile missing data and controls which is caused by incomplete firmware installation.  To verify this is your issye make the following request in a browser (preferably Chrome) on the same local network as the ISY. Replace ipAddress with the local IP Address of the ISY. Be sure to use Insteon request for Insteon Firmware and Zwave Request for Zwave only firmware.
+We have reports of UD Mobile missing data and controls which is caused by incomplete firmware installation.  To verify this is your issue make the following request in a browser (preferably Chrome) on the same local network as the ISY. Replace ipAddress with the local IP Address of the ISY. Be sure to use Insteon request for Insteon Firmware and Zwave Request for Zwave only firmware.
 
 Insteon Request for missing Status and Controls:
 http://ipAddress/rest/profiles/family/1/files  
