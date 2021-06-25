@@ -19,3 +19,61 @@ Apple and Google have given developers notice that bypassing security may result
 
 # Node Servers
 Please reboot the ISY if Node Server values are not formatted or are formatted incorrectly.  This is needed for all new Node Server installs and may be needed if NodeDef, Editor, or NLS files for a Node Server have been changed during an update.  After rebooting the ISY UD Mobile may need to sync with the ISY to obtain the new files. Incorrect formatting only affects clients, including UD Mobile, which read the formatted value from the ISY subscription.  Incorrect formatting does not appear to affect the Admin Conslole.
+
+# Missing Data
+We have had reports of UD Mobile missing data and controls which is caused by incomplete firmware installation.  To verify this is true make the following request in a browser when on the same local network as the ISY. Replace ipAddress with the local IP Address of the isy. Be sure to use Insteon request for Insteon Firmware and Zwave Request for Zwave only firmware.
+
+Insteon Request for missing Status and Controls:
+http://ipAddress/rest/profiles/family/1/files  
+
+Zwave request for missing Status and Controls:
+http://192.168.1.30/rest/profiles/family/4/files
+
+Insteon should return the following.  
+      
+```xml
+<profiles>
+<profile family="1" id="1">
+<files dir="EDITOR">
+<file name="I_EDIT.XML"/>
+</files>
+<files dir="EMAP">
+<file name="I_EMAP.XML"/>
+</files>
+<files dir="LINKDEF">
+<file name="I_LDEFS.XML"/>
+</files>
+<files dir="NLS">
+<file name="EN_US.TXT"/>
+</files>
+<files dir="NODEDEF">
+<file name="I_NDEFS.XML"/>
+</files>
+</profile>
+</profiles>
+```
+
+Zwave should return the following:
+
+```xml
+<profiles>
+<profile family="4" id="1">
+<files dir="EDITOR">
+<file name="EDITORS.XML"/>
+</files>
+<files dir="LINKDEF">
+<file name="ZW_LDEFS.XML"/>
+</files>
+<files dir="NLS">
+<file name="EN_US.TXT"/>
+</files>
+<files dir="NODEDEF"/>
+<files dir="EMAP"/>
+</profile>
+</profiles>
+```
+
+If family names are empty or missing firmware will need to reinstalled.  Reinstallation must be done from the Admin Console when on the same local network as the ISY.
+```xml 
+<file name="I_EDIT.XML"/>
+```      
