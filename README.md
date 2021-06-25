@@ -27,7 +27,7 @@ Insteon Request for missing Status and Controls:
 http://ipAddress/rest/profiles/family/1/files  
 
 Zwave request for missing Status and Controls:
-http://192.168.1.30/rest/profiles/family/4/files
+http://ipAddress/rest/profiles/family/4/files
 
 Insteon should return the following.  
       
