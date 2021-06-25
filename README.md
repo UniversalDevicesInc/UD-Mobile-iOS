@@ -1,8 +1,8 @@
 # UD-Mobile-iOS
 Issue-only repository for tracking issues related to the UD Mobile iOS App
 
-# TEST FLIGHT USERS
-App only supports nodes (Insteon, Zwave, and Node Servers), Programs, Variables, Scenes, and Network Resources. Favorites have not been added. At this time we are looking for ANR (app not respondin) and crashes.  Please hold feature requests until further notice.
+# iOS TestFlight 
+Join iOS TestFlight by folling instructions here https://testflight.apple.com/join/xHtzI5R3.  Note that iOS TestFlight versions are only valid for 90 days. Please keep a UD Mobile backup in the event a build expires.
 
 
 ## Reporting an Issue
@@ -11,7 +11,7 @@ Please check if the issue already exists to avoid duplicates. If issue exists pl
 Include UD Mobile version number and ISY Firmware version in report.
 
 ## Installation
-Test Flight ONLY, by invitation only.
+Apple App Store https://apps.apple.com/us/app/ud-mobile/id1550618148?itsct=apps_box_badge&itscg=30200
 
 ## Remote Connections
 If not using the ISY Portal, UD Mobile supports remote connections by A) VPN and selecting "Only Use Local Connection" or B) A valid CERT. This will not work with self signed CERTs unless trusted by the operating system. Adding a self signed CERT to an OS is beyond the scope of support for this app.
