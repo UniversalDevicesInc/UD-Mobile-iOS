@@ -47,7 +47,12 @@ To add a new ISY go to Settings-Tab > Systems and then click the "Add" button on
 UD Mobile can support may ISY Portal Accounts although it is recommended users use the same ISY Portal Account for all their ISYs.  This feature is intended for installers and developers.  To add a new portal account, go to Settings-Tab > Portals > and then click "Add" button on the top right.  A new portal account can also be added when adding a new System by clicking yes when prompted to use ISY Portal, then clicking "Add New".
 
 # Missing Data
-We have reports of UD Mobile missing data and controls which is caused by incomplete firmware installation.  To verify this is your issue make the following request in a browser (preferably Chrome) on the same local network as the ISY. Replace ipAddress with the local IP Address of the ISY. Be sure to use Insteon request for Insteon Firmware and Zwave Request for Zwave only firmware.
+We have reports of UD Mobile missing data and controls which is caused by incomplete firmware installation.  To verify your issue please follow instructions below or open a ticket.
+
+Ticket:
+https://www.universal-devices.com/my-tickets
+
+To verify this is your issue make the following request in a browser (preferably Chrome) on the same local network as the ISY. Replace ipAddress with the local IP Address of the ISY. Be sure to use Insteon request for Insteon Firmware and Zwave Request for Zwave only firmware.
 
 Insteon Request for missing Status and Controls:
 http://ipAddress/rest/profiles/family/1/files  
