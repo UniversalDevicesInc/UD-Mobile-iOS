@@ -104,9 +104,16 @@ Zwave should return the following:
 </profiles>
 ```
 
-If file names are empty or missing firmware will need to re-installed or upgraded.  Reinstallation must be done from the Admin Console when on the same local network as the ISY.
+If the returned data only contains "files dir..." without "file name..." firmware will need to re-installed or upgraded.  
 ```xml 
 <file name="I_EDIT.XML"/>
 ```      
 
+Reinstallation of firmware can be done the same way as a manual firmware upgrade.  Links to our forum are included below, Under the Install section there are instructions for firmware installation from the Admin Console, please be sure this is done when the computer running the Admin Console is connected to the ISY on the same local network.  If this is an upgrade from firmware less than 5.0.16 please be sure to follow all upgrade instructions.  After firmware has been reinstalled, please synchronize UD Mobile.
+
+version 5.3.0
+https://forum.universal-devices.com/topic/30939-release-530-is-now-available/
+
+version 5.3.3
+https://forum.universal-devices.com/topic/32170-release-533-test-build-is-now-available/
 
