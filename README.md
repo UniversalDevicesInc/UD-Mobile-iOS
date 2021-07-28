@@ -16,7 +16,7 @@ Apple App Store https://apps.apple.com/us/app/ud-mobile/id1550618148?itsct=apps_
 # Remote Connections
 Remote connection on UD Mobile can be achieved in 3 scenarios.
 
-First is our managed method using ISY Portal. ISY Portal has competitive prices of $23 for the first 2 years and renewals cost of $20 for two years (prices current as of 06/2021). If your ISY has not been associated with the ISY Portal in the past we offer a 30 day free trial.
+First is our managed method using ISY Portal. ISY Portal has competitive prices of $23 for the first 2 years and renewals cost of $20 for two years (prices current as of 06/2021). If your ISY has not been associated with the ISY Portal in the past we offer a 30 day free trial. ISY Portal Installation instructions can be found here https://wiki.universal-devices.com/index.php?title=ISY_Portal_Installation_Instructions
 
 Second is an unmanaged direct connection. The unmanaged method requires a Trusted CA Signed SSL Certificate. The Trusted SSL CERT is required for reasons stated below in App Transport Security. Instructions on adding a CERT to your ISY can be found here: https://www.universal-devices.com/docs/production/ISY994%20Series%20Network%20Security%20Guide.pdf . There are methods to add a Self Signed CERT to the Trusted Key Store on Android, however it is beyond the scope of our support and may require root on some devices.
 
